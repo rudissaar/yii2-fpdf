@@ -1,6 +1,6 @@
 <?php
 
-namespace kevinmurda\FPDF;
+namespace kevinmurda;
 
 use \FPDF as BaseFPDF;
 
