@@ -1,10 +1,10 @@
 <?php
 
-namespace kevinmurda\FPDF;
+namespace rudissaar\FPDF;
 
 use \FPDF as BaseFPDF;
 
 class FPDF extends BaseFPDF
 {
-    
+
 }

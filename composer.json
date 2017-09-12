@@ -1,6 +1,6 @@
 {
-    "name": "kevin-murda/yii2-fpdf",
-    "description": "FPDF plugin for Yii2 framework.",
+    "name": "rudissaar/yii2-fpdf",
+    "description": "FPDF plugin and wrapper for Yii2 framework.",
     "type": "yii2-extension",
     "require": {
         "setasign/fpdf": "*"
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "kevinmurda\\FPDF\\": ""
+            "rudissaar\\FPDF\\": ""
         }
     }
 }
