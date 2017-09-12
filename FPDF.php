@@ -1,6 +1,6 @@
 <?php
 
-namespace rudissaar\FPDF;
+namespace rudissaar\fpdf;
 
 use \FPDF as BaseFPDF;
 
