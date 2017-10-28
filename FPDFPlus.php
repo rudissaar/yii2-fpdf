@@ -37,4 +37,15 @@ class FPDFPlus extends FPDF
         $this->write($height, $text, $link);
         $this->ln();
     }
+
+    /**
+     *
+     * @param float|null $height
+     * @param string $hmtl
+     * @param string $link
+     */
+    public function writeHtml($height, $html, $link = '')
+    {
+        $this->writeLn($height, strip_tags($html), $link);
+    }
 }
