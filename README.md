@@ -19,7 +19,7 @@ After that you can use FPDF class anywhere in your file or inherit another class
 
 ...
 
-use rudissaar/fpdf/FPDF;
+use rudissaar\fpdf\FPDF;
 
 ...
 
