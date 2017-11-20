@@ -9,7 +9,7 @@ FPDF plugin and wrapper for Yii2 framework.
 `FPDF` is copy of [FPDF](http://www.fpdf.org/) class and it has all methods and properties like original one.  
 To include FPDF class add following line to your PHP file:
 
-`use rudissaar/fpdf/FPDF;`
+`use rudissaar\fpdf\FPDF;`
 
 After that you can use FPDF class anywhere in your file or inherit another class from it.
 
@@ -19,7 +19,7 @@ After that you can use FPDF class anywhere in your file or inherit another class
 
 ...
 
-use rudissaar/fpdf/FPDF;
+use rudissaar\fpdf\FPDF;
 
 ...
 
