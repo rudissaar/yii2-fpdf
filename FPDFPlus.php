@@ -12,30 +12,10 @@ class FPDFPlus extends FPDF
      * @param string $text
      * @param string $link
      */
-    public function write($height, $text, $link = '')
-    {
-        $this->Write($height, $text, $link);
-    }
-
-    /**
-     *
-     * @param float|null $height
-     */
-    public function ln($height = null)
-    {
-        $this->Ln($height);
-    }
-
-    /**
-     *
-     * @param float|null $height
-     * @param string $text
-     * @param string $link
-     */
     public function writeLn($height, $text, $link = '')
     {
-        $this->write($height, $text, $link);
-        $this->ln();
+        $this->Write($height, $text, $link);
+        $this->Ln();
     }
 
     /**
