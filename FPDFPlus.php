@@ -12,7 +12,7 @@ class FPDFPlus extends FPDF
      * @param string $text
      * @param string $link
      */
-    public function writeLn($height, $text, $link = '')
+    public function WriteLn($height, $text, $link = '')
     {
         $this->Write($height, $text, $link);
         $this->Ln();
@@ -24,8 +24,8 @@ class FPDFPlus extends FPDF
      * @param string $hmtl
      * @param string $link
      */
-    public function writeHtml($height, $html, $link = '')
+    public function WriteHtml($height, $html, $link = '')
     {
-        $this->writeLn($height, strip_tags($html), $link);
+        $this->WriteLn($height, strip_tags($html), $link);
     }
 }
