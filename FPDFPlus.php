@@ -54,4 +54,40 @@ class FPDFPlus extends FPDF
 
         return (float) ($width - $rightMargin - $leftMargin);
     }
+
+    /**
+     *
+     * @return float
+     */
+    public function GetTopMargin()
+    {
+        return (float) $this->tMargin;
+    }
+
+    /**
+     *
+     * @return float
+     */
+    public function GetRightMargin()
+    {
+        return (float) $this->rMargin;
+    }
+
+    /**
+     *
+     * @return float
+     */
+    public function GetBottomMargin()
+    {
+        return (float) $this->bMargin;
+    }
+
+    /**
+     *
+     * @return float
+     */
+    public function GetLeftMargin()
+    {
+        return (float) $this->lMargin;
+    }
 }
